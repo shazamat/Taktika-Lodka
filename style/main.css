@@ -1,0 +1,53 @@
+/* ========================== Font ========================== */
+@font-face {
+    font-family: 'Elavento', sans-serif;
+    src:  url('');
+  }
+
+
+
+/* ========================== Core ========================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-weight: 700;
+    font-family: 'Gilroy-extrabold', sans-serif;
+    .play-bold {
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+}
+
+[class*="__container"] {
+    max-width: 1296px; 
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    color: #000000;
+    cursor: pointer;
+}
+
+/* ========================== Header ========================== */
+
+
+
+
+
