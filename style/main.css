@@ -1,75 +1,115 @@
-/* ========================== Font ========================== */
-@font-face {
-    font-family: 'Elavento', sans-serif;
-    src:  url('');
-  }
-
-/* ========================== Core ========================== */
 *,
 ::after,
 ::before {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    transition: all 0.2s linear;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s linear;
 }
 
 html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-weight: 700;
-    font-family: 'Gilroy-extrabold', sans-serif;
-    .play-bold {
-        font-family: "Play", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-[class*="__container"] {
-    max-width: 1111px; 
-    margin: 0 auto;
+[class*=__container] {
+  max-width: 1111px;
+  margin: 0 auto;
 }
 
 ul,
 li,
 ol {
-    list-style-type: none;
-    text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 html,
 body {
-    height: 100%;
-    line-height: 1;
+  height: 100%;
+  line-height: 1;
 }
-
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
+body {
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+}
+
+.btn {
+  width: 153px;
+  height: 32px;
+  border-radius: 5px;
+  font-family: "Play", sans-serif;
+}
+
+/* ========================== Variable ========================== */
 /* ========================== Header ========================== */
+.header__container {
+  margin-top: 35px;
+}
 
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.navigation__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 
+.logo_container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
+.contact__navigation {
+  font-family: "Play", sans-serif;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+li a {
+  color: #272727;
+}
 
+.orange {
+  background-color: #F95D04;
+}
+.orange a {
+  color: #f0f0f0;
+}
 
+.blacked {
+  background-color: #272727;
+}
+.blacked a {
+  color: #f0f0f0;
+}
 
+.header__input__form {
+  display: flex;
+  justify-content: space-between;
+}
 
+.header_form input {
+  width: 496px;
+  height: 48px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
 
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=main.css.map */

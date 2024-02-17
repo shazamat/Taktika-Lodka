@@ -1,0 +1,51 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+[class*="__container"] {
+    max-width: 1111px; 
+    margin: 0 auto;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+}
+
+.btn {
+    width: 153px;
+    height: 32px;
+    border-radius: 5px;
+    font-family: 'Play',sans-serif;
+}

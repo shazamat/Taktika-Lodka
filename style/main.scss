@@ -1,0 +1,89 @@
+@import 'base';
+/* ========================== Variable ========================== */
+
+$--orange-color: #F95D04;
+$--black-color: #272727;
+$--white-color: #f0f0f0;
+
+/* ========================== Header ========================== */
+
+.header__container {
+    margin-top: 35px;
+}
+
+
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.navigation__list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.logo_container {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+
+.contact__navigation {
+    font-family: 'Play',sans-serif;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    a {
+        color: $--black-color;
+    }    
+}
+
+
+
+.orange {
+    a {
+        color: $--white-color;
+    }
+    background-color: $--orange-color;
+}
+
+
+.blacked {
+    a {
+        color: $--white-color;
+    }
+    background-color: $--black-color;
+}
+
+
+
+.header__input__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header_form {
+    input {
+        width: 496px;
+        height: 48px;
+        padding: 15px 10px;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+}
+
