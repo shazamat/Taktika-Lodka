@@ -124,7 +124,49 @@ li {
 }
 
 
+.about__taktika {
+    background-image: url(../images/IMG_5892\ копия\ 1.png);
+    height: 517px;
+    margin-top: 80px;
 
+    div ul {
+        padding-top: 170px;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        
+        li {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    div ul li {
+        p {
+            color: $--white-color;
+        }
+    }
+}
+
+
+.title {
+    color: $--white-color;
+    padding-top: 123px;
+    padding-left: 40px;
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Play', sans-serif;
+    }
+
+    p {
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+}
 
 
 

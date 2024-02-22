@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 ::after,
 ::before {
@@ -142,6 +143,41 @@ li a {
   gap: 5px;
   flex-direction: column;
   align-items: center;
+}
+
+.about__taktika {
+  background-image: url(../images/IMG_5892\ копия\ 1.png);
+  height: 517px;
+  margin-top: 80px;
+}
+.about__taktika div ul {
+  padding-top: 170px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.about__taktika div ul li {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.about__taktika div ul li p {
+  color: #f0f0f0;
+}
+
+.title {
+  color: #f0f0f0;
+  padding-top: 123px;
+  padding-left: 40px;
+}
+.title h1 {
+  font-size: 40px;
+  font-family: "Play", sans-serif;
+}
+.title p {
+  padding-top: 15px;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=main.css.map */
